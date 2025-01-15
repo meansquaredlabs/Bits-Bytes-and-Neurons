@@ -18,7 +18,7 @@ DEFAULT_PORTFOLIO_PATH = Path(__file__).parents[1] / "example/portfolio.yml"
 def menu():
     with st.sidebar:
         selected = option_menu(
-            menu_title='Your Name',
+            menu_title='meansquaredlabs: Bits, Bytes and Neurons',
             menu_icon='pages', default_index=0,
             options=['About Me', 'Experience'],
             #orientation='horizontal',
